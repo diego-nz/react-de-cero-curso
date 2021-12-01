@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente GifGridItem debe de mostrar correctamente el componente GifGridItem 1`] = `
+<figure
+  className="card__item"
+>
+  <img
+    alt="Un titulo"
+    src="https://urldemimiagen.com"
+  />
+  <figcaption>
+    Un titulo
+  </figcaption>
+</figure>
+`;

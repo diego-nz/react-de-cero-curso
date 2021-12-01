@@ -22,10 +22,13 @@ export const CategorieAdd = ( {setCategories} ) => {
         <form onSubmit={handleSubmit}>
             <h2>Add categorie</h2>
             <input type="text" value={inputValue} onChange={handleInput}/>
+            {/* Para el test solamente, el contenido debe ser al mismo que el p  */}
+            <p>{ inputValue }</p>
         </form>
     )
 }
 
+// Funcion requerida
 CategorieAdd.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
