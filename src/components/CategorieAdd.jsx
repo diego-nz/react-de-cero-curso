@@ -11,6 +11,7 @@ export const CategorieAdd = ( {setCategories} ) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
         if(inputValue.trim().length > 0){
             // Accede a las categorias mediante callback para no pasarlas como props
             setCategories( cats => [inputValue, ...cats]);

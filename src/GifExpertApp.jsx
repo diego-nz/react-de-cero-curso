@@ -3,9 +3,9 @@ import { CategorieAdd } from './components/CategorieAdd';
 import { GifGrid } from './components/GifGrid';
 import 'animate.css';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
     
-    const [categories, setCategories] = useState(['Naruto']);
+    const [categories, setCategories] = useState( defaultCategories );
     // const [inputValue, setInputValue] = useState('')
 
     // const handleAdd = () => {
@@ -33,7 +33,6 @@ export const GifExpertApp = () => {
             {/* <button value="Agregar" onClick={handleAdd}>Agregar</button> */}
 
             <CategorieAdd setCategories={ setCategories } />
-
             {/* <ul> */}
                 {categories.map((value, index) => {
                     // return <li key={index}>{value}</li>

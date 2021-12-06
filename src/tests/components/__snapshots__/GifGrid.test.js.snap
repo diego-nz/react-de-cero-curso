@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente gifgrid debe de mostrar items cuando se cargan imagenes de useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+     
+    naruto
+     
+  </h3>
+  <div
+    className="card-container animate__animated animate__zoomInUp"
+  >
+    <GifGridItem
+      id={1}
+      image="https://ruta/de/imagen/1.gif"
+      key="1"
+      title="titulo-1"
+    />
+    <GifGridItem
+      id={2}
+      image="https://ruta/de/imagen/2.gif"
+      key="2"
+      title="titulo-2"
+    />
+    <GifGridItem
+      id={3}
+      image="https://ruta/de/imagen/3.gif"
+      key="3"
+      title="titulo-3"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas del componente gifgrid debe mostrar el componente <GifGrid> 1`] = `
+<Fragment>
+  <h3>
+     
+    naruto
+     
+  </h3>
+  <h4
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </h4>
+  <div
+    className="card-container animate__animated animate__zoomInUp"
+  />
+</Fragment>
+`;
